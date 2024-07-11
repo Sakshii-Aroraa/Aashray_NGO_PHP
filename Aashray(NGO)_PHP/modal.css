@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+/* font-family: "Lobster", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Whisper&display=swap');
+/* font-family: "Dancing Script", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Whisper&display=swap');
+/* font-family: "Satisfy", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@400..700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Titan+One&family=Whisper&display=swap');
+/* font-family: "Creepster", system-ui; */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Satisfy&family=Titan+One&family=Whisper&display=swap');
+/* font-family: "Protest Riot", sans-serif;     fav*/ 
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Protest+Riot&family=Satisfy&family=Titan+One&family=Whisper&display=swap');
+/* font-family: "Protest Revolution", sans-serif;    nice font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+.modal-content {
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+.modal-header {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: green;
+}
+
+.modal-header h5 {
+
+    color: yellow;
+    font-family: 'Protest Riot';
+    text-align: center;
+	font-size: 20px;
+
+}
+.close
+{
+	margin-left: 350px;
+}
+h5 .modal-title{
+  padding-left: 100px;
+}
+
+.form-control {
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.form-check-input {
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.btn-primary {
+  border-radius: 1rem;
+  background-color: blue;
+  color: yellow;
+  font-family: 'Protest Riot';
+}
+
+.btn-primary:hover {
+  background-color: green;
+}
+
+.text-muted {
+  color: #fff;
+  font-family: 'Protest Riot';
+}
+
+.modal-footer {
+  border-top: 0;
+}
+.btn-info
+{
+	font-family: 'Protest Riot';
+	color: yellow;
+}
+.btn-info:hover {
+	background-color: green;
+}
+
+/*Admin Home*/
+
+.admin_home_heading
+{
+	font-family: "Protest Riot", sans-serif;
+    color: darkblue;
+    background-color: pink;
+    text-decoration: 2px underline #DE3163;
+    text-align: center;
+}
+.alert-info ,.alert-primary ,.alert-danger
+{
+	text-align: center;
+	border: 5px dotted blue;
+	
+}
+strong
+{
+	font-family: "Protest Revolution", sans-serif;
+	font-size: 20px; 
+	text-decoration: underline;
+}
+.alert
+{
+	font-family: "Lobster", sans-serif;
+	font-size: 20px;	
+}
+

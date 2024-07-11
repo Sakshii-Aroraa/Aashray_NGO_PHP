@@ -1,0 +1,705 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+/* font-family: "Lobster", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Whisper&display=swap');
+/* font-family: "Dancing Script", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Whisper&display=swap');
+/* font-family: "Satisfy", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@400..700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Titan+One&family=Whisper&display=swap');
+/* font-family: "Creepster", system-ui; */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&family=Satisfy&family=Titan+One&family=Whisper&display=swap');
+/* font-family: "Protest Riot", sans-serif;     fav*/ 
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@700&family=Madimi+One&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Protest+Riot&family=Satisfy&family=Titan+One&family=Whisper&display=swap');
+/* font-family: "Protest Revolution", sans-serif;    nice font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/* index.html */
+
+body{
+    overflow-x:hidden;
+    /* overflow-y: hidden; */
+}
+.col-sm-3 img{
+    width: 200px;
+    height: 150px;
+    float: left;
+}
+.head_text h1{
+    font-family: "Lobster", sans-serif;
+    font-weight: 800;
+     font-style: normal;
+     color: #DE3163;
+     padding-top: 20px;
+     
+}
+
+.right_part{
+   float: left;
+   padding-top: 50px;
+}
+.glyphicon{
+    color: #DE3163;
+}
+.text{
+    font-size: medium;
+}
+
+#navv
+{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar{
+    height: 5px;
+    margin-bottom: 0px !important;
+    
+}
+
+#mynavbar{
+    margin-bottom: 0px;
+}
+ul li{
+    padding: 5px;
+}
+.nav-item{
+    font-family: "Protest Revolution", sans-serif;
+    color: white;
+    font-size: 16px;
+}
+/* .navbar a:hover,.dropdown:hover .dropdown-toggle
+{
+    background-color: #DE3163;
+    color: darkblue;
+} */
+.dropdown .dropdown-toggle {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropdown-toggle {
+    background-color: #DE3163;
+    color: darkblue;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: yellow;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-menu a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /*Modal Admin Login*/
+ .modal-content {
+  border-radius: 1rem;
+  background-image: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+.modal-header {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: #6c757d;
+}
+
+.modal-header h5 {
+  color: #fff;
+}
+h5 .modal-title{
+  padding-left: 100px;
+}
+
+.form-control {
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.form-check-input {
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+.btn-primary {
+  border-radius: 1rem;
+  background-color: #6c757d;
+}
+
+.btn-primary:hover {
+  background-color: #5a6268;
+}
+
+.text-muted {
+  color: #fff;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+#messageArea
+    {
+    	margin-left: 200px;
+    	font-family:"Lobster", sans-serif;
+    	color: yellow; 
+    	font-size:20px;
+    }
+
+
+img{
+    height: 500px;
+}
+.icons{
+    padding-top: 10px;
+    color: #DE3163;
+}
+
+#Who_we_are
+{
+    text-align: center;
+    color: #DE3163;
+    font-family: "Lobster", sans-serif;
+}
+.col-sm-8 h2
+{
+    color: darkblue;
+    /* font-family: "Lobster", sans-serif; */
+    font-family: "Satisfy", cursive;
+    text-decoration: underline #DE3163 ;
+}
+.col-sm-8 p
+{
+    text-align: justify;
+    /* font-family: "Lobster", sans-serif; */
+    font-family: "Protest Riot", sans-serif;
+    
+    
+}
+.ourOrganization
+{
+    background-color: lightblue;
+    height: 320px;
+}
+.car-par{
+    color: purple;
+    text-shadow: white 4px 5px 5px;
+    font-size: 40px;
+    font-family: "Protest Riot", sans-serif;
+}
+
+/* Flip-Card */
+
+.flip-card {
+    perspective: 1000px;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+   
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back
+ {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    background-color: #f8f9fa;
+    color: #000;
+}
+.flip-card-back {
+    background-color: #343a40;
+    color: #000;
+    transform: rotateY(180deg);
+}
+.card-img-top {
+    max-height: 250px;
+    object-fit: contain;
+    background-color: pink;
+    
+}
+.card-title, .card-text
+{
+    font-family: "Protest Riot", sans-serif; 
+    color: #DE3163;
+}
+
+/* mission&Vision.html */
+.aboutUs_heading
+{
+    font-family: "Lobster", sans-serif;
+    color: #DE3163;
+    background-color: lightblue;
+    text-decoration: 2px underline darkblue;
+}
+
+.aboutUs_head
+{
+    color: darkblue;
+    font-family: "Protest Riot", sans-serif;
+    font-size: 20px;
+    background-color: pink;
+    padding: 10px;
+    
+}
+.aboutUs_info
+{
+    font-family: "Lobster", sans-serif;
+    font-size: 15px;
+    color: purple;
+    background-color: lightblue;
+    padding: 10px;
+    height: 105px;
+}
+/* flip : mission and vision*/
+.container{
+    transform-style: preserve-3d;
+}
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    cursor: pointer;
+}
+.container .box .body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 0.9s ease;
+}
+.container .box .body .imgContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+.container .box .body .imgContainer img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .box .body .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+.container .box:hover .body{
+    transform: rotateY(180deg);
+}
+.container .box .body .content div{
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(45deg, #FE0061,#FFEB3B);
+    transform: translateZ(100px);
+}
+.container .box .body .content div h3{
+    letter-spacing: 1px;
+    font-family: "Lobster", sans-serif;
+}
+
+
+/* Events */
+.head_text_1{
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 800;
+     font-style: normal;
+     color: #DE3163;
+     padding-top: 20px;
+     padding-bottom: 20px;
+  }
+  .head_text h1{
+      font-family: "Lobster", sans-serif;
+      font-weight: 800;
+       font-style: normal;
+       color: #DE3163;
+       padding-top: 20px;
+  }
+.box_content {
+    width: 95%;
+    box-shadow: #DE3163 0px 10px 45px;
+    text-align: justify;
+    padding: 20px;
+    z-index: 4;
+    position: absolute;
+    background: center center rgb(255, 255, 255);
+    animation: move-in-steps-1 8s infinite;
+}
+.circular{
+    position: absolute;
+    animation: move-in-steps-2 8s infinite;
+}
+.circular img{
+    padding-bottom: 50px;
+    height: 350px;
+}
+.medium{
+    height: 400px;
+}
+.move-me {
+display: inline-block;
+padding: 20px;
+position: relative;
+margin: 0 0 10px 0;
+} 
+.move-me-1 {
+display: inline-block;
+padding: 20px;
+margin: 0 0 10px 0;
+} 
+.box_content_1 {
+width: 90%;
+box-shadow: #DE3163 0px 10px 45px;
+text-align: justify;
+padding: 20px;
+margin-left: 50px;
+z-index: 4;
+background: center center rgb(255, 255, 255);
+}
+
+@keyframes move-in-steps-1 {
+0% {
+  left: 0;
+}
+100% {
+  left: 105%;
+}
+}
+
+@keyframes move-in-steps-2 {
+0% {
+  left: 30%;
+}
+100% {
+  left: -75%;
+}
+} 
+
+hr.dotted{
+border: 10px dotted #DE3163;
+}
+.para-section{
+margin: 0px;
+padding: 30px;
+}
+.brief{
+text-align: justify;
+color: #DE3163;
+font-style: bold;
+font-family: "Lobster", sans-serif;
+}
+.main{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#counter{
+width: 100%;
+background-color: black;
+color: white;
+height: 350px;
+}
+.counter-section{
+margin-top: 35px;
+}
+.rows{
+display: flex;
+width: 100%;
+margin: auto;
+}
+.part{
+width: 25%;
+background-color: white;
+color: black;
+padding: 50px;
+text-align: center;
+margin: 10px;
+margin-top: 25px;
+border: 1px dotted;
+}
+.blue{
+color: black;
+text-shadow: #DE3163 5px 3px 3px;
+font-weight: 400;
+font-family: "Lobster", sans-serif;
+}
+h3{
+font-family: "Lobster", sans-serif;
+color: #DE3163;
+text-shadow: pink 2px 3px 3px;
+text-align: center;
+padding-top: 20px;
+}
+
+.foot{
+width: 100%;
+padding-top: 50px;
+}
+.row-1{
+display: flex;
+justify-content: space-between;
+}
+.cols-1 h4{
+font-size: 24px;
+font-weight: 600;
+padding-left: 20px;
+}
+.last ul li{
+list-style-type: none;
+}
+
+.last ul li span a{
+color: black;
+}
+.last ul li span a:hover{
+color: #DE3163;
+}
+.grid-row{
+display: flex;
+}
+.grid-img-1{
+padding: 5px 5px;
+}
+.project-1 img{
+width: 70px;
+height: 50px;
+}
+.map{
+color: #DE3163;
+}
+.phone{
+color: #DE3163;
+}
+.envelope{
+color: #DE3163;
+}
+.pink{
+color: #DE3163;
+}
+.paper{
+color: white;
+background-color: #C1D934;
+font-size: 20px;
+}
+.grey_line{
+background-color: black;
+border: 2px solid grey;
+}
+.p_1{
+color: grey;
+text-align: center;
+}
+.paras
+{
+    text-align: justify;
+}
+.foot
+{
+    background-color: lightblue;
+}
+/* portfolio.html */
+
+.portfolioo img
+{
+    filter: grayscale(100%);
+    transition: 1s;
+}
+.portfolioo img:hover
+{
+    filter: grayscale(0%);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.portfolio_img img
+{
+    width: 350px;
+    height: 200px;
+    padding: 5px;
+}
+.portfolio_img 
+{
+    padding-top: 20px;
+}
+
+.port_heading
+{
+    padding-top: 0px;
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    color: #DE3163;
+    text-shadow: pink 2px 3px 3px;
+}
+.center_img img
+{
+    width: 1000px;
+    height: 350px;
+}
+.center_img{
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* getInTouch.html */
+
+.getInTouch
+{
+    background: url("images/bg_img2.png");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+}
+.container h1
+{
+    padding-top: 50px;
+    text-align: left;
+    font-family: "Lobster", sans-serif;
+    color: #DE3163;
+    text-shadow: pink 2px 3px 3px;
+    padding-left: 120px;
+}
+.form-horizontal{
+    margin: auto;
+    padding-right: 200px;
+}
+
+/* faq.html */
+
+.faq
+{
+    background-color: pink;
+}
+
+.card .card-header
+{
+    background-color: palevioletred;
+    font-family: "Protest Riot", sans-serif; 
+}
+.card .card-body
+{
+    background-color: lightblue;
+    font-family: "Protest Riot", sans-serif; 
+}
+
+/* As A Volunteer */
+
+.volunteer_heading
+{
+    font-family: "Lobster", sans-serif;
+    color: #DE3163;
+    background-color: lightblue;
+    text-decoration: 2px underline darkblue;
+    text-align: center;
+    /* margin-top: 25px; */
+}
+.leftSideVolunteer img
+{
+    margin: 10px;
+    padding: 10px;
+    height: 350px;
+    width: 570px;
+    border: 2px dotted #DE3163;
+    /* border-radius: 50%; */
+}
+.volunteerOfAashray_heading
+{
+    font-family: "Satisfy", cursive;
+    color: darkblue;
+    background-color: pink;
+    text-decoration: 2px underline #DE3163;
+    margin: 10px;
+}
+.volunteerOfAashray p
+{
+    margin: 10px;
+    text-align: justify;
+    background-color: lightblue;
+}
+.volunteerEligiblity_heading
+{
+    font-family: "Satisfy", cursive;
+    color: darkblue;
+    background-color: pink;
+    text-decoration: 2px underline #DE3163;
+    margin: 10px;
+}
+.volunteerEligiblity p
+{
+    margin: 10px;
+    text-align: justify;
+    background-color: lightblue;
+}
+.volunteerHeading
+{
+    font-family: "Satisfy", cursive;
+    color: darkblue;
+    background-color: pink;
+    text-decoration: 2px underline #DE3163;
+}
+.volunteerForm
+{
+    margin: 10px;
+    background-color: lightblue;
+}
+
+.details_heading 
+{
+	font-family: "Satisfy", cursive;
+    color: darkblue;
+    background-color: pink;
+    text-decoration: 2px underline #DE3163;
+	text-align: center;
+	
+}
+
